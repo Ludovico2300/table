@@ -4,3 +4,7 @@ Creare una tabella composta da 3 colonne rappresentanti le entrate e uscite mens
  - La terza colonna le uscite
  - La prima riga dovrà avere l'header della tabella
  - L'ultima riga deve contenere le somme dei valori
+
+ All'interno del tag table, crea tre blocchi per l'intestazione, 
+ per il corpo e per il footer della tabella, 
+ attraverso rispettivamente i tag < thead >, < tbody >, < tfoot >
