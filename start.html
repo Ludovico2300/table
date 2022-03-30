@@ -8,10 +8,20 @@
     <title>Lezione Table</title>
     <style>
         table{
-            border: 1px solid black;
+            border: 2px solid;
+            background-color: rgb(255, 255, 255);
         }
+
+        td, th{
+            border: 1px solid;
+        }
+        
         th{
             background-color: yellow;
+        }
+        .total-raw{
+            font-size:x-large;
+            font-style: italic;
         }
 
     </style>
@@ -19,7 +29,10 @@
 
 <body>
     <table>
-        <caption>Tabella entrate ed uscite Mauro</caption>
+        <caption><abbr title="Viene considerato solo il primo semestre!"> Entrate ed Uscite UtenteX</abbr></caption>
+        <colgroup>
+            <col style="background-color: green;">
+        </colgroup>
         <thead>
             <tr>
                 <th>Mesi</th>
@@ -58,13 +71,12 @@
                 <td>850</td>
                 <td>150</td>
             </tr>
-
         </tbody>
         <tfoot>
-            <tr>
+            <tr class="total-raw">
                 <td>Totali</td>
-                <td>x</td>
-                <td>y</td>
+                <td>2.335</td>
+                <td>420</td>
             </tr>
         </tfoot>
     </table>
